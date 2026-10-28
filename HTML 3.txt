@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Daily News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        header, section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .content-section {
+            text-align: left;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+        img, iframe {
+            display: block;
+            margin: 15px 0;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Global Daily News</h1>
+        <p><em>Your Trusted Source for Latest Updates</em></p>
+        <nav>
+            <a href="#world">World</a> | 
+            <a href="#sports">Sports</a> | 
+            <a href="#entertainment">Entertainment</a> | 
+            <a href="#podcast">Podcast</a> | 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- News Section -->
+    <section class="content-section" id="world">
+        <h2>News</h2>
+        <p>Today's top headline: Global leaders meet to discuss climate change initiatives.</p>
+        <!-- Replace 'bbc_news.png' with your actual image path -->
+        <img src="bbc_news.png" alt="BBC World News" width="350">
+        <a href="https://bbc.com" target="_blank">Read more on BBC</a>
+    </section>
+
+    <!-- Sports Update Section -->
+    <section class="content-section" id="sports">
+        <h2>Sports Update</h2>
+        <p>Highlights of yesterday's football match with thrilling last-minute goals!</p>
+        <!-- Standard YouTube embed iframe for the Big Buck Bunny video shown in the screenshot -->
+        <iframe width="450" height="250" src="https://youtube.com" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Entertainment Buzz Section -->
+    <section class="content-section" id="entertainment">
+        <h2>Entertainment Buzz</h2>
+        <p>New movie trailer released today. Fans are excited!</p>
+    </section>
+
+</body>
+</html>
